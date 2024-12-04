@@ -1,10 +1,10 @@
 # Assignment 3.9 : Devops CI/CD Pipeline using Terraform to create S3 bucket.
 
-1) Create a new Github repository called "CE7-M3-Devops-Pipeline-TF" and clone locally.
+1) Create a new Github repository called "andyliew-Simple-Devops-Pipeline2" and clone locally.
 - Add repository secret for AWS credential in github setting.
 - Add repository variable for AWS region in github setting.
 - Set protection to main branch.
-- Create new branch for the development work (feature/wtc-20241028 branch).
+- Create new branch for the development work (feature-branch branch).
 
 2) Use terraform code to create a simple S3 bucket.
 - Create terraform code inside a directory called terraform folder that links to our backend s3 bucket for ce7 for storing tf state file
